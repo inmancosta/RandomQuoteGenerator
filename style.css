@@ -1,0 +1,85 @@
+:root {
+    --theme-color: #FF8674; /* Rename the variable to --theme-color */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--theme-color); /* Background color outside the quote box */
+}
+
+#quote-text {
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: var(--theme-color); /* Set the text color to match the background */
+   font-family: "Georgia", serif;
+}
+
+
+
+#quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+
+.text {
+    font-size: 24px;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-icon {
+    float: left;
+    font-size: 24px;
+    margin-right: 12px;
+    color: var(--theme-color); /* Set the text color to match the background */
+}
+
+cite {
+    text-align: right;
+    color: var(--theme-color);
+  font-family: "Dancing Script", cursive;
+}
+
+.bg-primary {
+    background-color: var(--theme-color) !important;
+}
+
+.hyphen {
+    color: var(--theme-color);
+}
+
+.btn {
+    background-color: var(--theme-color) !important; /* Set the button background color to match the background */
+    color: #fff; /* Set the button text color to white */
+    border: none !important;
+}
+
+button#new-quote {
+    background-color: var(--theme-color) !important; /* Set the background color */
+    color: #fff; /* Set the text color */
+    /* Add any other styles you want */
+  font-family: "Arial", sans-serif;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    background-color: var(--theme-color);
+    min-height: 100vh;
+    min-width: 100vw;
+  transition: background-color 0.5s ease;
+}

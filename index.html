@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - quote generator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
+    <title>Quote Generator</title>
+</head>
+<body>
+ <div class="container">
+    <div id="quote-box">
+     <i class="fa fa-quote-left quote-icon"></i>
+        <div class="text" id="quote-text">
+          
+            Your quote goes here. 
+          
+        </div>
+      
+      <div class="hyphen">-
+        <cite id="author"> Author Name</cite>
+      </div>
+      
+       <div class="row">
+            <div class="col-md-6">
+                <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" class="btn btn-info">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <button onclick="changeThemeColor();randomQuote()" id="new-quote" class="btn btn-primary btn-block bg-primary">New Quote</button>
+            </div>
+        </div>
+    </div>
+ </div>
+    
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
